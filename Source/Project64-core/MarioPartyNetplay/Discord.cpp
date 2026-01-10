@@ -190,11 +190,11 @@ void CDiscord::UpdatePresenceInternal()
 
         // State Line (Players & Turns)
         if (m_CurrentTotalTurns > 0 && m_CurrentTotalTurns != 127) {
-            snprintf(state, sizeof(state), "Players: %d/%d | Turn: %d/%d",
+            snprintf(state, sizeof(state), "Jogadores: %d/%d | Rodada: %d/%d",
                 m_CurrentPlayers, m_MaxPlayers, m_CurrentTurn, m_CurrentTotalTurns);
         }
         else {
-            snprintf(state, sizeof(state), "Players: %d/%d", m_CurrentPlayers, m_MaxPlayers);
+            snprintf(state, sizeof(state), "Jogadores: %d/%d", m_CurrentPlayers, m_MaxPlayers);
         }
         discordPresence.state = state;
 
@@ -242,4 +242,5 @@ void CDiscord::Update(bool force)
 {
     if (!s_DiscordInstance) return;
     force ? s_DiscordInstance->ForceUpdatePresence() : s_DiscordInstance->UpdatePresence();
+
 }
