@@ -61,92 +61,92 @@ void CLanguage::LoadDefaultStrings(void)
     * Menu                                                                           *
     *********************************************************************************/
     //File Menu
-    DEF_STR(MENU_FILE, "&File");
-    DEF_STR(MENU_OPEN, "&Open ROM");
-    DEF_STR(MENU_ROM_INFO, "ROM &Info....");
-    DEF_STR(MENU_OPEN_USER_FOLDER, "Open &User Folder");
-    DEF_STR(MENU_START, "Start Emulation");
-    DEF_STR(MENU_END, "&End Emulation");
-    DEF_STR(MENU_CHOOSE_ROM, "Choose ROM Directory...");
-    DEF_STR(MENU_REFRESH, "Refresh ROM List");
-    DEF_STR(MENU_RECENT_ROM, "Recent ROM");
-    DEF_STR(MENU_RECENT_DIR, "Recent ROM Directories");
-    DEF_STR(MENU_EXIT, "E&xit");
+    DEF_STR(MENU_FILE, "&Arquivo");
+    DEF_STR(MENU_OPEN, "&Abrir ROM");
+    DEF_STR(MENU_ROM_INFO, "&Informações....");
+    DEF_STR(MENU_OPEN_USER_FOLDER, "Pasa do &Usuário");
+    DEF_STR(MENU_START, "Iniciar Emulação");
+    DEF_STR(MENU_END, "&Encerrar Emulação");
+    DEF_STR(MENU_CHOOSE_ROM, "Escolher Diretório de ROMs...");
+    DEF_STR(MENU_REFRESH, "Recarregar Lista de ROMs");
+    DEF_STR(MENU_RECENT_ROM, "ROMs Recentes");
+    DEF_STR(MENU_RECENT_DIR, "Diretórios de ROMs recentes");
+    DEF_STR(MENU_EXIT, "S&air");
 
     //System Menu
-    DEF_STR(MENU_SYSTEM, "&System");
-    DEF_STR(MENU_RESET, "&Reset");
-    DEF_STR(MENU_PAUSE, "&Pause");
-    DEF_STR(MENU_BITMAP, "Generate Bitmap");
-    DEF_STR(MENU_LIMIT_FPS, "Limit FPS");
-    DEF_STR(MENU_SAVE, "&Save State");
-    DEF_STR(MENU_SAVE_AS, "Save As...");
-    DEF_STR(MENU_RESTORE, "&Load State");
-    DEF_STR(MENU_LOAD, "Load...");
-    DEF_STR(MENU_CURRENT_SAVE, "Current Save S&tate");
-    DEF_STR(MENU_GS_BUTTON, "GS Button");
-    DEF_STR(MENU_RESUME, "R&esume");
-    DEF_STR(MENU_RESET_SOFT, "&Soft Reset");
-    DEF_STR(MENU_RESET_HARD, "&Hard Reset");
-    DEF_STR(MENU_SWAPDISK, "Swap &Disk");
+    DEF_STR(MENU_SYSTEM, "&Sistema");
+    DEF_STR(MENU_RESET, "&Reiniciar");
+    DEF_STR(MENU_PAUSE, "&Pausar");
+    DEF_STR(MENU_BITMAP, "Gerar Bitmap");
+    DEF_STR(MENU_LIMIT_FPS, "Limitar Quadros");
+    DEF_STR(MENU_SAVE, "&Salvar Estado");
+    DEF_STR(MENU_SAVE_AS, "Salvar Como...");
+    DEF_STR(MENU_RESTORE, "&Carregar Estado");
+    DEF_STR(MENU_LOAD, "Carregar...");
+    DEF_STR(MENU_CURRENT_SAVE, "Atual E&stado Salvo");
+    DEF_STR(MENU_GS_BUTTON, "Botão GS");
+    DEF_STR(MENU_RESUME, "R&esumir");
+    DEF_STR(MENU_RESET_SOFT, "&Reinicialização simples");
+    DEF_STR(MENU_RESET_HARD, "&Reinicialização forçada");
+    DEF_STR(MENU_SWAPDISK, "Trocar &Disco");
 
     //Options Menu
-    DEF_STR(MENU_OPTIONS, "&Options");
-    DEF_STR(MENU_FULL_SCREEN, "&Full Screen");
-    DEF_STR(MENU_ON_TOP, "&Always on &Top");
-    DEF_STR(MENU_CHEAT, "Select Cheats");
-    DEF_STR(MENU_CONFG_GFX, "Video Settings");
-    DEF_STR(MENU_CONFG_AUDIO, "Audio Settings");
-    DEF_STR(MENU_CONFG_CTRL, "Input Settings");
+    DEF_STR(MENU_OPTIONS, "&Opções");
+    DEF_STR(MENU_FULL_SCREEN, "&Tela Cheia");
+    DEF_STR(MENU_ON_TOP, "&Sempre no &Topo");
+    DEF_STR(MENU_CHEAT, "Escolher Trapaças");
+    DEF_STR(MENU_CONFG_GFX, "Configurações de Vídeo");
+    DEF_STR(MENU_CONFG_AUDIO, "Configurações de Áudio");
+    DEF_STR(MENU_CONFG_CTRL, "Configurações de Entrada");
     //DEF_STR(MENU_CONFG_RSP, "RSP Settings");
-    DEF_STR(MENU_SHOW_CPU, "Show CPU Usage");
-    DEF_STR(MENU_SETTINGS, "&General Settings");
+    DEF_STR(MENU_SHOW_CPU, "Mostrar Uso da CPU");
+    DEF_STR(MENU_SETTINGS, "&Configurações Gerais");
 
     //Debugger Menu
-    DEF_STR(MENU_DEBUGGER, "&Debugger");
+    DEF_STR(MENU_DEBUGGER, "&Depurador");
 
     //Language Menu
-    DEF_STR(MENU_LANGUAGE, "&Language");
+    DEF_STR(MENU_LANGUAGE, "&Idioma");
 
     //Help Menu
     DEF_STR(MENU_HELP, "&Help");
-    DEF_STR(MENU_ABOUT_INI, "About Conf&ig Files");
-    DEF_STR(MENU_ABOUT_PJ64, "&About Project64");
-    DEF_STR(MENU_STOCKHOMEPAGE, "&Homepage");
+    DEF_STR(MENU_ABOUT_INI, "Sobre Arquivos de Conf&ig.");
+    DEF_STR(MENU_ABOUT_PJ64, "&Sobre o Project64");
+    DEF_STR(MENU_STOCKHOMEPAGE, "&Site");
 
     //Current Save Slot menu
-    DEF_STR(MENU_SLOT_DEFAULT, "Default");
-    DEF_STR(MENU_SLOT_1, "Slot 1");
-    DEF_STR(MENU_SLOT_2, "Slot 2");
-    DEF_STR(MENU_SLOT_3, "Slot 3");
-    DEF_STR(MENU_SLOT_4, "Slot 4");
-    DEF_STR(MENU_SLOT_5, "Slot 5");
-    DEF_STR(MENU_SLOT_6, "Slot 6");
-    DEF_STR(MENU_SLOT_7, "Slot 7");
-    DEF_STR(MENU_SLOT_8, "Slot 8");
-    DEF_STR(MENU_SLOT_9, "Slot 9");
-    DEF_STR(MENU_SLOT_10, "Slot 10");
-    DEF_STR(MENU_SLOT_SAVE, "Save slot (%s) selected");
+    DEF_STR(MENU_SLOT_DEFAULT, "Padrão");
+    DEF_STR(MENU_SLOT_1, "Entrada 1");
+    DEF_STR(MENU_SLOT_2, "Entrada 2");
+    DEF_STR(MENU_SLOT_3, "Entrada 3");
+    DEF_STR(MENU_SLOT_4, "Entrada 4");
+    DEF_STR(MENU_SLOT_5, "Entrada 5");
+    DEF_STR(MENU_SLOT_6, "Entrada 6");
+    DEF_STR(MENU_SLOT_7, "Entrada 7");
+    DEF_STR(MENU_SLOT_8, "Entrada 8");
+    DEF_STR(MENU_SLOT_9, "Entrada 9");
+    DEF_STR(MENU_SLOT_10, "Entrada 10");
+    DEF_STR(MENU_SLOT_SAVE, "Entrada (%s) selecionada");
 
     //Pop up Menu
-    DEF_STR(POPUP_PLAY, "Play Game");
-    DEF_STR(POPUP_INFO, "ROM Information");
-    DEF_STR(POPUP_SETTINGS, "Edit Game Settings");
-    DEF_STR(POPUP_CHEATS, "Select Cheats");
-    DEF_STR(POPUP_GFX_PLUGIN, "Graphics Plugin");
+    DEF_STR(POPUP_PLAY, "Jogar");
+    DEF_STR(POPUP_INFO, "Informações");
+    DEF_STR(POPUP_SETTINGS, "Editar Configurações");
+    DEF_STR(POPUP_CHEATS, "Escolher Trapaças");
+    DEF_STR(POPUP_GFX_PLUGIN, "Plugin de Gráfico");
 
     //Alternate Name to save Slot
-    DEF_STR(SAVE_SLOT_DEFAULT, "Save Slot - Default");
-    DEF_STR(SAVE_SLOT_1, "Save Slot - 1");
-    DEF_STR(SAVE_SLOT_2, "Save Slot - 2");
-    DEF_STR(SAVE_SLOT_3, "Save Slot - 3");
-    DEF_STR(SAVE_SLOT_4, "Save Slot - 4");
-    DEF_STR(SAVE_SLOT_5, "Save Slot - 5");
-    DEF_STR(SAVE_SLOT_6, "Save Slot - 6");
-    DEF_STR(SAVE_SLOT_7, "Save Slot - 7");
-    DEF_STR(SAVE_SLOT_8, "Save Slot - 8");
-    DEF_STR(SAVE_SLOT_9, "Save Slot - 9");
-    DEF_STR(SAVE_SLOT_10, "Save Slot - 10");
+    DEF_STR(SAVE_SLOT_DEFAULT, "Entrada - Padrão");
+    DEF_STR(SAVE_SLOT_1, "Entrada - 1");
+    DEF_STR(SAVE_SLOT_2, "Entrada - 2");
+    DEF_STR(SAVE_SLOT_3, "Entrada - 3");
+    DEF_STR(SAVE_SLOT_4, "Entrada - 4");
+    DEF_STR(SAVE_SLOT_5, "Entrada - 5");
+    DEF_STR(SAVE_SLOT_6, "Entrada - 6");
+    DEF_STR(SAVE_SLOT_7, "Entrada - 7");
+    DEF_STR(SAVE_SLOT_8, "Entrada - 8");
+    DEF_STR(SAVE_SLOT_9, "Entrada - 9");
+    DEF_STR(SAVE_SLOT_10, "Entrada - 10");
 
     /*********************************************************************************
     * ROM Browser                                                                    *
@@ -823,3 +823,4 @@ const std::wstring wGS(LanguageStringID StringID)
     return stdstr(g_Lang->GetString(StringID)).ToUTF16();
 }
 #endif
+
